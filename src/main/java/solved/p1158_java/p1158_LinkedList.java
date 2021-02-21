@@ -1,3 +1,5 @@
+package solved.p1158_java;
+
 import java.util.*;
 
 class ListNode{

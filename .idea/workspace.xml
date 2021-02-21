@@ -5,115 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc593e7-a39c-487e-99b7-fce256e02712" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1212_java/P1212.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1212_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1212_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/P15990_java/P15990.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/P15990_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/P15990_java/solved.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/hamburger/Ham.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/hamburger/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/Test3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/Test4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/Test5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/test1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/test2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/test3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/test4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/groom/test/test5.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_test/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/bp1/Bp1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/bp2/Bp2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/sort1/Sort1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P10799_java/P10799.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P10799_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P10820_java/P10820.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P10820_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11052_java/P11052.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11052_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11052_java/solved.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1107_java/P1107.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1107_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1107_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11656_java/P11656.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11656_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11656_java/solved.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11726_java/P11726.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11726_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11726_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11727_java/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11727_java/P11727.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11727_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P11727_java/t2n2122.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P14500_java/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P14500_java/P14500.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P14500_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P14500_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1463_java/P1463.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1463_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1463_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1476_java/P1476.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1476_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1476_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P17413_java/P17413.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P17413_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1748_java/P1748.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1748_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1748_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1874_java/P1874.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P1874_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P2309_java/P2309.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P2309_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P2309_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/P9095_java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P9095_java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P9095_java/P9095.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P9095_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/P9095_java/solve.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1009_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1009_java/p1009.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p10828/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p10828/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p10828/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p10828/p10828.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p10828/test.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p10845_java/P10845.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p10845_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1158_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1158_java/p1158_LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1158_java/p1158_list.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1406_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1406_java/linkedlist/P1406_LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1406_java/stack/P1406_stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p1406_java/stack/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p3085_java/P3085.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p3085_java/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p3085_java/SOLVE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p9012/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p9012/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p9012/p9012.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p9093/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p9093/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p9093/p9093.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solved/p9093/test.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/stack.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bpTest/BpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/hamburger/Ham.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/hamburger/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/Test5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/test1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/test2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/test3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/test4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/groom/test/test5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/bp1/Bp1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/bp2/Bp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/out/production/programmers/Bp2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/out/production/programmers/Sort1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/out/production/programmers/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/out/production/programmers/programmers/Bp1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/programmers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/sort1/Sort1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/sort1/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/test/.idea/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P10799_java/P10799.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P10799_java/P10799.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P10820_java/P10820.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P10820_java/P10820.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P11052_java/P11052.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P11052_java/P11052.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P11656_java/P11656.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P11656_java/P11656.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P11726_java/P11726.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P11726_java/P11726.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P11727_java/P11727.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P11727_java/P11727.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P14500_java/P14500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P14500_java/P14500.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P1463_java/P1463.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P1463_java/P1463.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P1476_java/P1476.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P1476_java/P1476.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P17413_java/P17413.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P17413_java/P17413.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P1748_java/P1748.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P1748_java/P1748.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P1874_java/P1874.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P1874_java/P1874.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P2309_java/P2309.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P2309_java/P2309.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P9095_java/.idea/P9095_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P9095_java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P9095_java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P9095_java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P9095_java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/P9095_java/P9095.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/P9095_java/P9095.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/p10845_java/P10845.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/p10845_java/P10845.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/p1158_java/p1158_LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/p1158_java/p1158_LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/p1158_java/p1158_list.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/p1406_java/linkedlist/P1406_LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/p1406_java/linkedlist/P1406_LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/p1406_java/stack/P1406_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/p1406_java/stack/P1406_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/p1406_java/stack/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solved/p3085_java/P3085.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solved/p3085_java/P3085.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unsolved/P1212_java/P1212.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unsolved/P1212_java/P1212.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unsolved/P15990_java/P15990.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unsolved/P15990_java/P15990.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -137,6 +105,19 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1mVGkMh2yFIFV6R9grhiruJWWtc" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
@@ -147,24 +128,93 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210221_0000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\algorithm\src\main\scala" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved.p1158_java.Main" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solved.p1158_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="algorithm.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unsolved.P1212_java.Main" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unsolved.P1212_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solved.p1009_java.Main" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solved.p1009_java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -175,6 +225,9 @@
       <option name="presentableId" value="Default" />
       <updated>1609571488732</updated>
       <workItem from="1609571490780" duration="136000" />
+      <workItem from="1611146068519" duration="435000" />
+      <workItem from="1611146529978" duration="2100000" />
+      <workItem from="1613914122988" duration="775000" />
     </task>
     <servers />
   </component>

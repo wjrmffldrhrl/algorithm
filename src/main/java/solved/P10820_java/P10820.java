@@ -1,4 +1,4 @@
-package P10820_java;
+package solved.P10820_java;
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -12,8 +12,8 @@ class Main {
 
         String str = "";
         while((str = br.readLine()) != null && str.length() != 0){
-            
-            sb = new StringBuilder();
+
+            StringBuilder sb = new StringBuilder();
             int small=0, big=0, num=0, blank=0;
 
 

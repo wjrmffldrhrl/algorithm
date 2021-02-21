@@ -1,3 +1,5 @@
+package solved.p3085_java;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

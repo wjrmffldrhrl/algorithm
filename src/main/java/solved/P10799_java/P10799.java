@@ -1,3 +1,5 @@
+package solved.P10799_java;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
