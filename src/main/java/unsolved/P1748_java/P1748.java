@@ -1,4 +1,4 @@
-package solved.P1748_java;
+package unsolved.P1748_java;
 
 import java.io.BufferedReader;
 import java.io.IOException;
