@@ -19,20 +19,54 @@ class Main {
             A[i] = Integer.parseInt(secondInput[i]);
         }
 
+        if (N == 1) {
+            System.out.println(Math.abs(A[0] - S));
+            return;
+        }
+
         A[N] = S;
 
         Arrays.sort(A);
 
-        int min = Integer.MAX_VALUE;
-        for (int i = 0; i < N; i++) {
-            int num = A[i + 1] - A[i];
+        int[] distance = new int[N];
 
-            if (num < min) {
-                min = num;
+        for (int i = 0; i < N; i++) {
+            distance[i] = A[i + 1] - A[i];
+        }
+
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < N - 1; i++) {
+            int gcd = gcd(distance[i], distance[i + 1]);
+
+            System.out.println(gcd);
+            if (gcd < min) {
+                min = gcd;
+
             }
         }
 
         System.out.println(min);
+    }
+
+    public static int gcd(int a, int b) {
+        int bigger;
+        int smaller;
+        if (a > b) {
+            bigger = a;
+            smaller = b;
+        } else {
+            bigger = b;
+            smaller = a;
+        }
+
+        int n;
+        while(smaller != 0){
+            n = bigger % smaller;
+            bigger = smaller;
+            smaller = n;
+        }
+
+        return bigger;
 
     }
 }
