@@ -1,4 +1,4 @@
-package unsolved.P1300;
+package unsolved.P1300_java;
 
 import java.io.BufferedReader;
 import java.io.IOException;
