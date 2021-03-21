@@ -1,4 +1,4 @@
-package unsolved.P1212_java;
+package solved.P1212_java;
 
 import java.io.BufferedReader;
 import java.io.IOException;
