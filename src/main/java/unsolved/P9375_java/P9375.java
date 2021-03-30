@@ -15,18 +15,22 @@ class Main {
         for (int i = 0; i < testCase; i++) {
             int n = Integer.parseInt(br.readLine());
 
-            String[] clothTypes = new String[n];
-            for (int j = 0; j < n; j++) {
-                clothTypes[j] = br.readLine().split(" ")[1];
-            }
+            testCase(n, br);
 
-
-            for (int j = 2; j <= n; j++) {
-                for (int k = 0; k < ; k++) {
-                    
-                }
-            }
         }
 
+    }
+
+
+    public static void testCase(int n, BufferedReader br) throws IOException {
+        String[] clothTypes = new String[n];
+        for (int j = 0; j < n; j++) {
+            clothTypes[j] = br.readLine().split(" ")[1];
+        }
+
+        for (String clothType : clothTypes) {
+            System.out.println(clothType);
+
+        }
     }
 }
