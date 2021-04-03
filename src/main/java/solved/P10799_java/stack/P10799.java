@@ -3,34 +3,40 @@ package solved.P10799_java.stack;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 class Main {
 
     static String inputString;
-    static int inputLength;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         inputString = br.readLine();
-        inputLength = inputString.length();
-        List<Integer> laserIndexes = findIndexes("()");
+
+        boolean[] isLaser = new boolean[inputString.length()];
         Stack<Integer> leftSideIndexes = new Stack<>();
 
         int answer = 0;
-        for (int i = 0; i < inputLength - 1; i++) {
-            String targetString = inputString.substring(i, i + 2);
+        for (int i = 0; i < inputString.length() - 1; i++) {
+            char firstTargetChar = inputString.charAt(i);
+            char secondTargetChar = inputString.charAt(i + 1);
 
-            if (targetString.equals("((")) {
-                leftSideIndexes.push(i);
-            } else if (targetString.equals("))")) {
+            switch (firstTargetChar) {
+                case '(':
+                    break;
+                case ')':
+            }
+
+
+            if (firstTargetChar == '(') {
+                if (secondTargetChar == '(') {
+                    leftSideIndexes.push(i);
+                } else {
+                    isLaser[i] = true;
+                }
+            } else if (secondTargetChar == ')') {
                 int leftSideIndex = leftSideIndexes.pop();
-                int rightSideIndex = i;
-
-                long laserCount = laserIndexes.stream()
-                        .filter(laserIndex -> laserIndex > leftSideIndex && laserIndex < rightSideIndex).count();
+                int laserCount = getLaserCount(isLaser, leftSideIndex, i);
 
                 answer += (laserCount + 1);
             }
@@ -39,21 +45,16 @@ class Main {
         System.out.println(answer);
     }
 
-
-    public static List<Integer> findIndexes(String targetString) {
-        List<Integer> indexes = new ArrayList<>();
-        int index = 0;
-        while (true) {
-            int laserIndex = inputString.indexOf(targetString, index);
-
-            if (laserIndex != -1) {
-                indexes.add(laserIndex);
-            } else {
-                break;
+    private static int getLaserCount(boolean[] isLaser, int leftSideIndex, int rightSideIndex) {
+        int laserCount = 0;
+        for (int i = leftSideIndex; i < rightSideIndex; i++) {
+            if (isLaser[i]) {
+                laserCount++;
             }
-            index = laserIndex + 1;
         }
 
-        return indexes;
+        return laserCount;
     }
+
+
 }
