@@ -10,12 +10,6 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
         int K = Integer.parseInt(br.readLine());
 
-        if (K == 1) {
-            System.out.println(1);
-        } else if (K == N * N) {
-            System.out.println(N * N);
-        }
-
 
 
 
