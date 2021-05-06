@@ -1,5 +1,10 @@
 package programmers;
 
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 /**
  * 문제 설명
  * 트럭 여러 대가 강을 가로지르는 일 차선 다리를 정해진 순으로 건너려 합니다. 모든 트럭이 다리를 건너려면 최소 몇 초가 걸리는지 알아내야 합니다. 트럭은 1초에 1만큼 움직이며, 다리 길이는 bridge_length이고 다리는 무게 weight까지 견딥니다.
@@ -31,15 +36,53 @@ package programmers;
  * 100	100	[10,10,10,10,10,10,10,10,10,10]	110
  */
 class P42583 {
-    public static void main(String[] args) {
-
-
-
-//        solution()
-    }
-
     private static int solution(int bridge_length, int weight, int[] truck_weights) {
         int answer = 0;
+
+        Stack<Integer> trucks = new Stack<>();
+        Queue<Integer> bridge = new LinkedList<>();
+
+        for (int i = truck_weights.length - 1; i >= 0; i--) {
+            trucks.push(truck_weights[i]);
+            truck_weights[i] = 0;
+        }
+
+        int endTruck = 0;
+        int waitTruckIndex = 0;
+        while (endTruck < truck_weights.length) {
+            answer++;
+            for (int i = endTruck; i < truck_weights.length; i++) {
+                if (truck_weights[i] > 0) {
+                    truck_weights[i]--;
+                    if (truck_weights[i] == 0) {
+                        bridge.poll();
+                        endTruck++;
+                    }
+                }
+
+
+            }
+
+            if (!trucks.isEmpty() && bridge.stream().mapToInt(i -> i).sum() + trucks.peek() <= weight) {
+                bridge.add(trucks.pop());
+                truck_weights[waitTruckIndex++] = bridge_length;
+            }
+
+
+
+
+        }
+
+
         return answer;
+    }
+
+    public static void main(String[] args) {
+        int bridge_length = 100;
+        int weight = 100;
+        int[] truck_weights = {10};
+
+        System.out.println(solution(bridge_length, weight, truck_weights));
+
     }
 }
