@@ -1,11 +1,9 @@
-package unsolved.P1052_java;
+package solved.P1052_java;
 
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 public class P1052 {
