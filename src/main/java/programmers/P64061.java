@@ -1,4 +1,4 @@
-package unsolved.programmers;
+package programmers;
 
 import java.util.Stack;
 

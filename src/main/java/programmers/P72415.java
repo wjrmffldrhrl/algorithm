@@ -1,4 +1,4 @@
-package unsolved.programmers;
+package programmers;
 
 public class P72415 {
     public static int solution(int[][] board, int r, int c) {

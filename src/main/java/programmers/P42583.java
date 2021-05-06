@@ -1,4 +1,4 @@
-package unsolved.programmers;
+package programmers;
 
 /**
  * 문제 설명

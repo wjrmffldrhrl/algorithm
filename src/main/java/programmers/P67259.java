@@ -1,4 +1,4 @@
-package unsolved.programmers;
+package programmers;
 
 // [카카오 인턴] 경주로 건설
 public class P67259 {
