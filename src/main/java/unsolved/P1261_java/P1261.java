@@ -33,7 +33,7 @@ public class P1261 {
         int N = Integer.parseInt(input[1]);
 
         boolean[][] map = new boolean[N][M];
-        boolean[][] isVisited = new boolean[N][M];
+        int[][] isVisited = new int[N][M];
 
         for (int y = 0; y < N; y++) {
             int x = 0;
@@ -45,7 +45,7 @@ public class P1261 {
                     case '1':
                         map[y][x] = false;
                 }
-
+                isVisited[y][x] = Integer.MAX_VALUE;
                 x++;
             }
         }
@@ -57,23 +57,18 @@ public class P1261 {
             int x = p.x;
             int y = p.y;
             int brokenWallCount = p.brokenCount;
-            isVisited[y][x] = true;
-
-
+            isVisited[y][x] = brokenWallCount;
 
             for (int i = -1; i < 2; i++) {
                 for (int j = -1; j < 2; j++) {
                     if (i == j
                             || x + j < 0 || x + j >= map[0].length
                             || y + i < 0 || y + i >= map.length
-                            || isVisited[y + i][x + j]) {
+                            || isVisited[y + i][x + j] <= brokenWallCount ) {
                         continue;
                     }
 
-                    if (x + j == M - 1 && y + i == N - 1) {
-                        System.out.println(brokenWallCount);
-                        return;
-                    }else if (map[y + i][x + j]) {
+                    if (map[y + i][x + j]) {
                         q.add(new Point(x + j, y + i, brokenWallCount));
                     } else {
                         q.add(new Point(x + j, y + i, brokenWallCount + 1));
@@ -85,6 +80,7 @@ public class P1261 {
 
 
         }
+        System.out.println(isVisited[N - 1][M - 1]);
 
     }
 
