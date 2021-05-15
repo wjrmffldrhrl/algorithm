@@ -24,8 +24,11 @@ public class P1593 {
         int count = 0;
         for (int i = 0; i < S.length() - g; i++) {
             boolean isMaya = true;
-            int[] tmpWordCount = Arrays.copyOfRange(wordCount, 0, wordCount.length - 1);
-            for (char word : S.substring(i, i + g).toCharArray()) {
+            int[] tmpWordCount =  new int[60];
+            System.arraycopy(wordCount, 0, tmpWordCount, 0, wordCount.length);
+
+            char[] charArray = S.substring(i, i + g).toCharArray();
+            for (char word : charArray) {
                 if (tmpWordCount[word - 'A'] == 0) {
                     isMaya = false;
                     break;
