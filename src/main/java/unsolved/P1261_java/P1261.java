@@ -3,21 +3,41 @@ package unsolved.P1261_java;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.PriorityQueue;
 
 public class P1261 {
+    static class Point implements Comparable<Point> {
+        int x;
+        int y;
+        int brokenCount;
+
+
+        public Point(int x, int y, int brokenCount) {
+            this.x = x;
+            this.y = y;
+            this.brokenCount = brokenCount;
+        }
+
+
+        @Override
+        public int compareTo(Point o) {
+            return this.brokenCount - o.brokenCount;
+        }
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        PriorityQueue<Point> q = new PriorityQueue<>();
         String[] input = br.readLine().split(" ");
         int M = Integer.parseInt(input[0]);
         int N = Integer.parseInt(input[1]);
 
         boolean[][] map = new boolean[N][M];
-        int[][] brokenWallCountToGo = new int[N][M];
+        boolean[][] isVisited = new boolean[N][M];
 
         for (int y = 0; y < N; y++) {
             int x = 0;
             for (char m : br.readLine().toCharArray()) {
-                brokenWallCountToGo[y][x] = Integer.MAX_VALUE;
                 switch (m) {
                     case '0':
                         map[y][x] = true;
@@ -30,52 +50,43 @@ public class P1261 {
             }
         }
 
-        move(map, 0, 0, brokenWallCountToGo, 0);
+        q.add(new Point(0, 0, 0));
+        while (!q.isEmpty()) {
+            Point p = q.poll();
 
-        System.out.println(brokenWallCountToGo[N - 1][M - 1]);
-//        for (int i = 0; i < N; i++) {
-//            for (int j = 0; j < M; j++) {
-//                System.out.print(brokenWallCountToGo[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
+            int x = p.x;
+            int y = p.y;
+            int brokenWallCount = p.brokenCount;
+            isVisited[y][x] = true;
+
+
+
+            for (int i = -1; i < 2; i++) {
+                for (int j = -1; j < 2; j++) {
+                    if (i == j
+                            || x + j < 0 || x + j >= map[0].length
+                            || y + i < 0 || y + i >= map.length
+                            || isVisited[y + i][x + j]) {
+                        continue;
+                    }
+
+                    if (x + j == M - 1 && y + i == N - 1) {
+                        System.out.println(brokenWallCount);
+                        return;
+                    }else if (map[y + i][x + j]) {
+                        q.add(new Point(x + j, y + i, brokenWallCount));
+                    } else {
+                        q.add(new Point(x + j, y + i, brokenWallCount + 1));
+                    }
+
+
+                }
+            }
+
+
+        }
+
     }
 
-    public static void move(boolean[][] map, int x, int y, int[][] brokenWallCountToGo, int brokenWallCount) {
-        if (brokenWallCountToGo[y][x] <= brokenWallCount) {
-            return;
-        }
-        brokenWallCountToGo[y][x] = brokenWallCount;
 
-        if (x > 0) {
-            if (map[y][x - 1]) {
-                move(map, x - 1, y, brokenWallCountToGo, brokenWallCount);
-            } else {
-                move(map, x - 1, y, brokenWallCountToGo, brokenWallCount + 1);
-            }
-        }
-        if (y > 0) {
-            if (map[y - 1][x]) {
-                move(map, x, y - 1, brokenWallCountToGo, brokenWallCount);
-            } else {
-                move(map, x , y - 1, brokenWallCountToGo, brokenWallCount + 1);
-            }
-        }
-        if (x < map[0].length - 1) {
-            if (map[y][x + 1]) {
-                move(map, x + 1, y, brokenWallCountToGo, brokenWallCount);
-            } else {
-                move(map, x + 1, y, brokenWallCountToGo, brokenWallCount + 1);
-            }
-        }
-        if (y < map.length - 1) {
-            if (map[y + 1][x]) {
-                move(map, x, y + 1, brokenWallCountToGo, brokenWallCount);
-            } else {
-                move(map, x, y + 1, brokenWallCountToGo, brokenWallCount + 1);
-            }
-        }
-
-
-    }
 }
