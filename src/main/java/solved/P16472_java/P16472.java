@@ -1,12 +1,10 @@
-package unsolved.P16472_java;
+package solved.P16472_java;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class P16472 {
     public static void main(String[] args) throws IOException {
