@@ -15,7 +15,7 @@ public class P1593 {
         String W = br.readLine();
         String S = br.readLine();
 
-        int[] wordCount = new int[∫60];
+        int[] wordCount = new int[60];
         for (char word : W.toCharArray()) {
             wordCount[word - 'A']++;
         }
