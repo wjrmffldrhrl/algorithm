@@ -3,8 +3,9 @@ package programmers;
 import java.util.HashSet;
 import java.util.Set;
 
+// solved
+// https://programmers.co.kr/learn/courses/30/lessons/43162
 public class P43162 {
-
     public int solution(int n, int[][] computers) {
 
         int[] parents = new int[n];
@@ -14,11 +15,16 @@ public class P43162 {
         }
 
         for (int i = 0; i < n; i++) {
-            for (int j = i ; j < n; j++) {
+            for (int j = i + 1 ; j < n; j++) {
                 if (computers[i][j] == 1) {
-                    union(parents, j, i);
+                    union(parents, i, j);
                 }
             }
+        }
+
+
+        for(int i = 0 ; i < n ; i++) {
+            find(parents, i);
         }
 
 
